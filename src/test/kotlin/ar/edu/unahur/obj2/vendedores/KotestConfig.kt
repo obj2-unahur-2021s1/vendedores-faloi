@@ -10,7 +10,7 @@ class KotestConfig: AbstractProjectConfig() {
 
   override fun listeners() = listOf(
     JunitXmlReporter(
-      includeContainers = false,
+      includeContainers = true,
       useTestPathAsName = true
     )
   )
