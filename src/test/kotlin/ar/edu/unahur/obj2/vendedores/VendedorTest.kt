@@ -17,7 +17,7 @@ class VendedorTest : DescribeSpec({
         vendedorFijo.puedeTrabajarEn(obera).shouldBeTrue()
       }
       it("otra ciudad") {
-        vendedorFijo.puedeTrabajarEn(sanIgnacio).shouldBeFalse()
+        vendedorFijo.puedeTrabajarEn(sanIgnacio).shouldBeTrue()
       }
     }
   }
