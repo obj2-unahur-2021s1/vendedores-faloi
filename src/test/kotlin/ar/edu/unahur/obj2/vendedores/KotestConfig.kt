@@ -11,7 +11,7 @@ class KotestConfig: AbstractProjectConfig() {
   override fun listeners() = listOf(
     JunitXmlReporter(
       includeContainers = true,
-      useTestPathAsName = true
+      useTestPathAsName = false
     )
   )
 }
