@@ -15,6 +15,7 @@ abstract class Vendedor {
   fun agregarCertificacion(certificacion: Certificacion) {
     certificaciones.add(certificacion)
     // Resta acá pensar alguna otra cosa que no me acuerdo
+    //Esto agrega una certificación
   }
 
   fun esFirme() = this.puntajeCertificaciones() >= 30
