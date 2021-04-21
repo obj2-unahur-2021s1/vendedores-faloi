@@ -9,7 +9,7 @@ class VendedorTest : DescribeSpec({
   val sanIgnacio = Ciudad(misiones)
 
   describe("Vendedor fijo") {
-    val obera = Ciudad(misiones
+    val obera = Ciudad(misiones)
     val vendedorFijo = VendedorFijo(obera)
 
     describe("puedeTrabajarEn") {
