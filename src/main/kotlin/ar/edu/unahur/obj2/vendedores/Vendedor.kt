@@ -30,7 +30,7 @@ abstract class Vendedor {
 
 class VendedorFijo(val ciudadOrigen: Ciudad) : Vendedor() {
   override fun puedeTrabajarEn(ciudad: Ciudad): Boolean {
-    return ciudad == ciudadOrigen
+    return ciudad == ciudadOrigen //Retorna un booleano
   }
 }
 
